@@ -29,7 +29,7 @@ const InfoSection = ({lightText,
                             <Heading lightText={lightText}>{headLine}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button to="home"
+                                <Button to="signup" smooth={true} duration={500} spy={true} exact="true" offset={-80}
                                     smooth={true}
                                     duration={500}
                                     spy={true}
